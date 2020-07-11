@@ -1,0 +1,63 @@
+body
+{
+	margin:     0;
+	padding:    0;
+	background: #C5C5C5;
+	word-wrap:  break-word;
+	overflow:   hidden;
+	font:       normal 15px "Helvetica", "Droid Sans", "Trebuchet MS";
+}
+
+navbar
+{
+  font-size: 120%;
+  font-weight: bold;
+  background-image: url(style/shiny-split.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  text-align: center;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -o-box-flex: 0;
+  box-flex: 0;
+  background-color: #888;
+  cursor: default;
+  text-shadow: #b3b3b3 0 1px 1px;
+  border-bottom: 1px solid #696969;
+}
+
+toolbar {
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0,0,0,0.8);
+  font-weight: normal;
+  font: 10px sans-serif;
+  cursor: pointer;
+  outline: none;
+  outline-color: transparent;
+  padding: 10px 0;
+  background-image: url(style/subtle-matte-full.png);
+  background-repeat: repeat-x;
+  background-position: top left;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}

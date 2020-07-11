@@ -1,0 +1,45 @@
+body { margin: 0pt auto; background: rgb(255, 255, 255) url() repeat-x scroll center top; text-align: center; font-family: Verdana,Arial,sans-serif,Helvetica; font-style: normal; font-variant: normal; font-weight: normal; font-size: 12px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; line-height: 2em; }
+#central { margin: 0pt auto 15px; padding: 10px; overflow: auto; width: 800px; display: block; }
+#header { width: 800px; height: 110px; background-color: #5B2964; color: #FFFFFF; }
+#bottom_shadow { width: 800px; }
+
+h2 { margin: 15px 0px; font-style: normal; font-variant: normal; font-weight: normal; font-size: 21px; line-height: normal; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: rgb(51, 51, 51); text-align: left; padding-bottom: 10px; font-family: "Trebuchet MS"; }
+
+.header_text {
+    font-weight: normal;
+    margin-top: 0;
+    padding: 42px 0 0 33px;
+}
+
+a:link { border-bottom: 0px none; font-family: Verdana,Helvetica,Arial; font-variant: normal; font-weight: normal; font-size: 12px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; color: rgb(154, 67, 186); text-decoration: none; font-style: italic; line-height: 2em; }
+a:visited { font-family: Verdana,Helvetica,Arial; font-variant: normal; font-weight: normal; font-size: 12px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; text-decoration: none; font-style: italic; color: rgb(154, 67, 186); line-height: 2em; }
+a:hover { border-bottom: 1px dotted #FF0000; font-family: Verdana,Helvetica,Arial; font-variant: normal; font-weight: normal; font-size: 12px; font-size-adjust: none; font-stretch: normal; -x-system-font: none; text-decoration: none; font-style: normal; color: #FF0000; line-height: 2em; }
+
+#c_left { background: #EEEEEE; margin-right: 5px; overflow: auto; width: 580px; text-align: left; float: left; display: block; }
+#c_left p { margin: 0pt auto; padding: 10px; text-align: left; color: rgb(85, 85, 85); }
+#c_left h2 { border-bottom: 1px solid rgb(229, 229, 229); margin: 0pt auto; padding: 10px 0px; text-align: left; font-size: 12px; color: rgb(123, 4, 120); font-weight: bold; font-family: Verdana,arial; text-transform: uppercase; }
+#c_left img { border: 1px solid rgb(229, 229, 229); margin: 15px 10px 10px 15px; padding: 5px; float: left; }
+#c_bottom { margin: 0pt auto; overflow: auto; width: 800px; text-align: center; clear: both; display: block; }
+#c_bottom img { border: 0px none ; margin: 24px 5px 10px; padding: 11px; background: transparent url('../img/f_photo_1.png') no-repeat scroll center top; width: 220px; }
+#c_bottom p { margin: 0pt auto; padding: 10px; text-align: left; color: rgb(85, 85, 85); }
+
+#c_right { margin: 0pt auto; padding: 0px; width: 205px; text-align: center; float: left; }
+#c_right h2.bol { margin: 0pt auto; padding: 7px 10px; background: #FFFFFF url('../img/shadow.png') repeat-x scroll center top; text-align: left; text-transform: uppercase; font-size: 16px; font-weight: bold; color: #FFFFFF; }
+#c_right div.contain { border: 1px solid rgb(229, 229, 229); margin: 0pt auto 10px; padding: 10px 5px; width: 193px; text-align: left; color: rgb(51, 51, 51); }
+#c_right div.contain a:link {  color: #212121; background: url('../img/arrow.gif') no-repeat center left; padding: 0 0 0 12px;  }
+#c_right div img.banner { border: 1px solid rgb(229, 229, 229); margin: 10px auto 0pt; padding: 3px; width: 175px; height: 50px; background-color: transparent; }
+#c_right div img.banner:hover { background-color: rgb(221, 221, 221); }
+#c_right div img.icon { vertical-align: middle; }
+#c_right div p { color: rgb(85, 85, 85); }
+#c_right div p.contact { padding: 5px; color: #5B2964; }
+
+label { margin: 10px 0px 0px 10px; padding: 10px; text-align: left; font-size: 14px; text-transform: uppercase; color: #212121; clear: both; }
+select, input { border: 1px solid rgb(91, 41, 100); margin: 10px 0px 10px 30px; padding: 5px; background: rgb(255, 255, 255) url('../img/s2.png') repeat-x scroll center top; width: 450px; font-size: 12px; font-weight: normal; clear: both; color: rgb(51, 51, 51); }
+input:focus { border: 3px solid #5B2964; }
+textarea { border: 1px solid rgb(91, 41, 100); margin: 10px 0px 10px 30px; padding: 5px; background: rgb(255, 255, 255) url('../img/s2.png') repeat-x scroll center top; width: 450px; height: 200px; font-size: 12px; font-weight: normal; clear: both; color: rgb(51, 51, 51); }
+textarea:focus { border: 3px solid #5B2964; }
+#submit { border: 1px solid #5B2964; background: #5B2964; none repeat scroll 0% 0%; width: 70px; height: 30px; cursor: pointer; clear: both; float: right; color: #FFFFFF; margin-right: 88px; }
+
+#footer { margin: 0pt auto; background: #5B2964; overflow: auto; width: 810px; height: 22px; display: block; }
+#footer a, a:visited { font-size: 10px; color: rgb(153, 153, 153); font-style: normal; }
+#footer div { margin: 0px 15px 0px; text-align: right; font-size: 10px; color: #FFFFFF; }

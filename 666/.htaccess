@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule    ^$    /index.php    [L]
+RewriteRule    ^([a-zA-Z0-9\-\_/]*)/$    /$1/index.php    [L]
+RewriteRule    ^([a-zA-Z0-9\-\_/]*)\.(html|htm)$    /$1.php    [L]
+RewriteRule    ^([a-zA-Z0-9\-\_/]*)$    $1.php    [L]
+
+Options -Indexes

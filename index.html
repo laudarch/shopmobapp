@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ShopMob App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body bgcolor="#f15a25">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="960px" style="padding:0px;display:block;">
+  <tr>
+   <td colspan="5">
+	<img name="bg_r1_c1" src="images/bg_r1_c1.jpg" width="960" height="184" border="0" id="bg_r1_c1" alt="" />
+   </td>
+  </tr>
+  <tr>
+   
+   <td colspan="3">
+	<img name="bg_r2_c1" src="images/bg_r2_c1.jpg" width="644" height="2" border="0" id="bg_r2_c1" alt="" />
+   </td>
+   <td rowspan="2" id="s1">
+   <!-- right phone -->
+	<span class="slides_container">
+		<img name="bg_r2_c4" src="images/bg_r2_c4.jpg" width="102" height="163" border="0" id="bg_r2_c4" alt="" />
+	</span>
+    </td>
+   <td rowspan="4"><img name="bg_r2_c5" src="images/bg_r2_c5.jpg" width="214" height="416" border="0" id="bg_r2_c5" alt="" /></td>
+  </tr>
+  <tr><!-- row 3 -->
+   <td rowspan="3">
+	<img name="bg_r3_c1" src="images/bg_r3_c1.jpg" width="212" height="414" border="0" id="bg_r3_c1" alt="" />
+    </td>
+   <td rowspan="2">
+	<!-- left phone -->
+	<img name="bg_r3_c2" src="images/bg_r3_c2.jpg" width="112" height="165" border="0" id="bg_r3_c2" alt="" />
+   </td>
+   <td rowspan="3">
+	<img name="bg_r3_c3" src="images/bg_r3_c3.jpg" width="320" height="414" border="0" id="bg_r3_c3" alt="" />
+    </td>
+  </tr>
+  <tr><!-- row 4 -->
+   <td rowspan="2">
+	<img name="bg_r4_c4" src="images/bg_r4_c4.jpg" width="102" height="253" border="0" id="bg_r4_c4" alt="" />
+    </td>
+  </tr>
+  <tr><!-- row 5 -->
+   <td>
+	<img name="bg_r5_c2" src="images/bg_r5_c2.jpg" width="112" height="249" border="0" id="bg_r5_c2" alt="" />
+   </td>
+  </tr>
+</table>
+</center>
+<script>
+var arr1 = new Array("images/bg_r2_c4.jpg", "images/bg_r3_c2.jpg");
+var img1 = document.getElementById('bg_r2_c4');
+var img2 = document.getElementById('bg_r3_c2');
+
+function RotateImages()
+{
+	img1.src = arr1[Math.floor(Math.random()*2)];
+	img2.src = arr1[Math.floor(Math.random()*2)];
+
+	setTimeout("RotateImages()",3600 * 1);
+}
+RotateImages();
+</script>
+</body>
+</html>
